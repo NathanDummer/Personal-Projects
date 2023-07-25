@@ -1,5 +1,8 @@
 import time
 start = time.time()
+"""
+Which starting number, under one million, produces the longest chain?
+"""
 mem = {1:1,2:2}
 
 def addToMem(lst,num=0):
